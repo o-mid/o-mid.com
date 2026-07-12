@@ -1,0 +1,324 @@
+{
+  "name": "Omid Mirzaei",
+  "description": "Senior Full-Stack Engineer",
+  "subDescription": "Flutter · Crypto · Web3 · Fintech",
+  "contacts": [
+    {
+      "tooltip": "GitHub",
+      "url": "https://github.com/o-mid",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome"
+      }
+    },
+    {
+      "tooltip": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omid-mirzaei/",
+      "icon": {
+        "codePoint": "0xeffb",
+        "fontFamily": "FontAwesome"
+      }
+    },
+    {
+      "tooltip": "omidomirzaei@gmail.com",
+      "url": "mailto:omidomirzaei@gmail.com",
+      "icon": {
+        "codePoint": "0xeaad",
+        "fontFamily": "FontAwesome"
+      }
+    },
+    {
+      "tooltip": "+44 7476 657450",
+      "url": "tel:+447476657450",
+      "icon": {
+        "codePoint": "0xecbb",
+        "fontFamily": "FontAwesome"
+      }
+    }
+  ],
+  "resumes": [
+    {
+      "languageCode": "en",
+      "url": "https://o-mid.com/resume/Omid_Mirzaei_CV.pdf"
+    }
+  ],
+  "aboutDescription": "Senior Full-Stack Engineer with a mobile-first background and deep expertise in Flutter and Dart — 7+ years across mobile apps, backend services, APIs and production fintech systems.\nMost recently at Block Labs, I work on Best Wallet, a multi-chain non-custodial crypto wallet with 100K+ active users: Flutter features across wallet, transactions, swaps and staking; Fireblocks MPC custody; Wirex card payments; backend contributions; and production debugging.\nBefore that, I spent four years shipping blockchain products at CoDeTech: CorePass (decentralised identity), XCB HODLER (official Core Blockchain wallet), and WebRTC-based communications.\nI use AI-assisted engineering workflows for architecture, implementation, testing and documentation — with careful validation for correctness and security. Fluent in English and Persian.\nOpen to senior full-stack, mobile-led and product-engineering roles in crypto, Web3, fintech and AI-enabled products. Based in Dubai, open to remote.",
+  "experiences": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Block Labs",
+      "description": "Mobile full-stack engineer on Best Wallet. Flutter features across wallet management, authentication, transactions, buy/send/receive, swap, staking and presale; Fireblocks MPC and Wirex payment flows; REST/SSE integrations; backend contributions and production support for a multi-chain non-custodial wallet with 100K+ active users.",
+      "url": "https://bestwallet.com",
+      "isPresent": true,
+      "startYear": 2024,
+      "startMonth": 12,
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        },
+        {
+          "name": "TypeScript",
+          "icon": {
+            "assetName": "assets/icons/software-development/typescript.svg"
+          }
+        },
+        {
+          "name": "Firebase",
+          "icon": {
+            "assetName": "assets/icons/other/firebase.svg"
+          }
+        },
+        {
+          "name": "Docker",
+          "icon": {
+            "assetName": "assets/icons/software-development/docker.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://bestwallet.com",
+          "display": "Best Wallet"
+        }
+      ]
+    },
+    {
+      "role": "Senior Mobile Developer",
+      "company": "CoDeTech",
+      "description": "Shipped blockchain products end to end: CorePass (decentralised identity + KYC), XCB HODLER (official Core Blockchain wallet with PayTo), WebRTC communications, and the public dart_rust_encrypt package. Flutter architecture, state management, native integration and release ownership.",
+      "url": "https://corepass.net",
+      "isPresent": false,
+      "startYear": 2021,
+      "startMonth": 3,
+      "endYear": 2024,
+      "endMonth": 12,
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        },
+        {
+          "name": "Firebase",
+          "icon": {
+            "assetName": "assets/icons/other/firebase.svg"
+          }
+        },
+        {
+          "name": "Docker",
+          "icon": {
+            "assetName": "assets/icons/software-development/docker.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://corepass.net",
+          "display": "CorePass"
+        },
+        {
+          "url": "https://pub.dev/packages/dart_rust_encrypt",
+          "display": "dart_rust_encrypt"
+        }
+      ]
+    },
+    {
+      "role": "Senior Mobile Developer",
+      "company": "SRIco",
+      "description": "Flutter development with CI/CD practices across production mobile delivery.",
+      "isPresent": false,
+      "startYear": 2020,
+      "startMonth": 11,
+      "endYear": 2021,
+      "endMonth": 3,
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "present": "Present",
+  "projects": [
+    {
+      "name": "Best Wallet",
+      "description": "Multi-chain non-custodial crypto wallet with 100K+ active users. Flutter features across transactions, swaps and staking; Fireblocks MPC custody; Wirex payments and 3DS auth flows.",
+      "url": "https://bestwallet.com",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome",
+        "color": "0xffffffff"
+      },
+      "screenshotPath": "assets/images/omid.jpg",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        },
+        {
+          "name": "Firebase",
+          "icon": {
+            "assetName": "assets/icons/other/firebase.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://bestwallet.com",
+          "display": "bestwallet.com"
+        }
+      ]
+    },
+    {
+      "name": "CorePass",
+      "description": "Decentralised digital-identity app with full KYC — identity, wallet, payments, backup and recovery flows.",
+      "url": "https://corepass.net",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome",
+        "color": "0xffffffff"
+      },
+      "screenshotPath": "assets/images/omid.jpg",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://corepass.net",
+          "display": "corepass.net"
+        }
+      ]
+    },
+    {
+      "name": "XCB HODLER",
+      "description": "Official Core Blockchain wallet on iOS and Android, with PayTo payment protocol integration.",
+      "url": "https://play.google.com/store/apps/details?id=com.xcbhodler.app",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome",
+        "color": "0xffffffff"
+      },
+      "screenshotPath": "assets/images/omid.jpg",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        },
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.xcbhodler.app",
+          "display": "Google Play"
+        }
+      ]
+    },
+    {
+      "name": "dart_rust_encrypt",
+      "description": "Public Dart ↔ Rust interop package for reusable hashing and encryption.",
+      "url": "https://pub.dev/packages/dart_rust_encrypt",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome",
+        "color": "0xffffffff"
+      },
+      "screenshotPath": "assets/images/omid.jpg",
+      "technologies": [
+        {
+          "name": "Dart",
+          "icon": {
+            "assetName": "assets/icons/other/dart.svg"
+          }
+        },
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
+          }
+        }
+      ],
+      "links": [
+        {
+          "url": "https://pub.dev/packages/dart_rust_encrypt",
+          "display": "pub.dev"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "icon": {
+        "assetName": "assets/icons/flags/united-states-of-america.svg"
+      }
+    }
+  ],
+  "bottomBanner": {
+    "message": "Built by Omid Mirzaei —",
+    "displayLink": "o-mid.com",
+    "linkUrl": "https://o-mid.com"
+  },
+  "portfolio": "Portfolio",
+  "homeSectionTitle": "Home",
+  "aboutSectionTitle": "About",
+  "aboutSectionTitleAlt": "About Me",
+  "experienceSectionTitle": "Experience",
+  "projectsSectionTitle": "Projects",
+  "resume": "Resume",
+  "downloadResume": "Download resume",
+  "openUrlError": "Could not open the url",
+  "unknownLanguageError": "Language unknown"
+}
