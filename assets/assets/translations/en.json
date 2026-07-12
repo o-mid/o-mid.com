@@ -174,7 +174,7 @@
         "fontFamily": "FontAwesome",
         "color": "0xffffffff"
       },
-      "screenshotPath": "assets/images/omid.jpg",
+      "screenshotPath": "assets/images/projects/best-wallet.png",
       "technologies": [
         {
           "name": "Flutter",
@@ -211,7 +211,7 @@
         "fontFamily": "FontAwesome",
         "color": "0xffffffff"
       },
-      "screenshotPath": "assets/images/omid.jpg",
+      "screenshotPath": "assets/images/projects/corepass.png",
       "technologies": [
         {
           "name": "Flutter",
@@ -242,7 +242,7 @@
         "fontFamily": "FontAwesome",
         "color": "0xffffffff"
       },
-      "screenshotPath": "assets/images/omid.jpg",
+      "screenshotPath": "assets/images/projects/xcb-hodler.png",
       "technologies": [
         {
           "name": "Flutter",
@@ -273,7 +273,7 @@
         "fontFamily": "FontAwesome",
         "color": "0xffffffff"
       },
-      "screenshotPath": "assets/images/omid.jpg",
+      "screenshotPath": "assets/images/projects/dart_rust_encrypt.png",
       "technologies": [
         {
           "name": "Dart",
