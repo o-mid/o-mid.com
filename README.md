@@ -1,38 +1,33 @@
 # o-mid.com
 
-Personal site for **Omid Mirzaei** — Senior Full-Stack Engineer (Flutter, crypto, Web3, fintech).
+Personal portfolio for **Omid Mirzaei** — Senior Full-Stack Engineer (Flutter, crypto, Web3, fintech).
 
 Live: [https://o-mid.com](https://o-mid.com)
 
 ## Stack
 
-- Static HTML / CSS / JS
-- No framework, no build step
-- Served by Nginx on a VPS
+- Flutter Web
+- Riverpod
+- easy_localization
+- Deployed as static files behind Nginx
 
-## Structure
-
-```
-index.html
-css/styles.css
-js/main.js
-assets/omid.jpg
-resume/Omid_Mirzaei_CV.pdf
-deploy/nginx-o-mid.com.conf
-```
-
-## Local preview
+## Develop
 
 ```bash
-cd o-mid.com
-python3 -m http.server 8080
-# open http://localhost:8080
+fvm use 3.38.6
+fvm flutter pub get
+make localization
+fvm flutter run -d chrome
 ```
 
-## Deploy
+## Build
 
-Upload site files to `/var/www/o-mid.com` on the VPS, enable the Nginx vhost in `deploy/nginx-o-mid.com.conf`, then issue TLS with Certbot once DNS points to the server.
+```bash
+fvm flutter build web --release --base-href /
+```
+
+Output: `build/web`
 
 ## Author
 
-Omid Mirzaei · [omidomirzaei@gmail.com](mailto:omidomirzaei@gmail.com) · [LinkedIn](https://www.linkedin.com/in/omid-mirzaei/) · [GitHub](https://github.com/o-mid)
+Omid Mirzaei · Dubai · [omidomirzaei@gmail.com](mailto:omidomirzaei@gmail.com)
