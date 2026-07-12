@@ -42,6 +42,20 @@
       document.getElementById("splash-branding")?.remove();
       document.body.style.background = "transparent";
     }
+    // Flutter app mounts under flutter-view; dismiss splash once it appears.
+    const dismissWhenReady = () => {
+      if (document.querySelector("flutter-view, flt-glass-pane")) {
+        removeSplashFromWeb();
+        return true;
+      }
+      return false;
+    };
+    window.addEventListener("flutter-first-frame", removeSplashFromWeb);
+    const observer = new MutationObserver(() => {
+      if (dismissWhenReady()) observer.disconnect();
+    });
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    setTimeout(removeSplashFromWeb, 4000);
   </script>
 </head>
 <body>
