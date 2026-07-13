@@ -79,7 +79,7 @@ const RESOURCES = {"resume/Omid_Mirzaei_CV.pdf": "4a4f74e8264ffb792047b3ab04a547
 "icons/Icon-maskable-192.png": "3a01c05f5a0299feb1c2b4597bf9c657",
 "icons/Icon-192.png": "3a01c05f5a0299feb1c2b4597bf9c657",
 "main.dart.mjs": "915b877afb9d73b0d1bdf1efecfe65c1",
-"flutter_bootstrap.js": "f29458ca665c12c550272a724d97cbaf",
+"flutter_bootstrap.js": "b1f67eb682ab42b1028844f7b9b4b8d2",
 "canvaskit/skwasm.wasm": "7e5f3afdd3b0747a1fd4517cea239898",
 "canvaskit/skwasm.js.symbols": "3a4aadf4e8141f284bd524976b1d6bdc",
 "canvaskit/chromium/canvaskit.js": "a80c765aaa8af8645c9fb1aae53f9abf",
