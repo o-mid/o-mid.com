@@ -2,7 +2,7 @@
 
 Flutter Web portfolio for **Omid Mirzaei**, Senior Full-Stack Engineer (Flutter · Crypto · Web3 · Fintech).
 
-**Live (Flutter archive):** [https://flutter.o-mid.com](https://flutter.o-mid.com)
+**Live (Flutter archive):** [https://o-mid.github.io/o-mid.com/](https://o-mid.github.io/o-mid.com/)
 
 > The current main site at [https://o-mid.com](https://o-mid.com) is a Next.js portfolio ([o-mid/website](https://github.com/o-mid/website)).  
 > **This repository** is the Flutter Web version, kept public so you can clone it, study the structure, or reuse the approach.
@@ -16,7 +16,7 @@ You get:
 - Responsive layout (mobile / tablet / desktop)
 - Section-based portfolio (about, experience, projects, contact)
 - Asset-driven content (translations + project images)
-- A production `build/web` output you can drop behind nginx
+- A production `build/web` output you can host as static files
 
 ## Stack
 
@@ -27,7 +27,7 @@ You get:
 | State | Riverpod |
 | i18n | easy_localization |
 | Platforms | Web (primary), plus Android / iOS / desktop folders from Flutter |
-| Deploy | Static `build/web` on nginx |
+| Deploy | Static `build/web` on **GitHub Pages** (`gh-pages` branch) |
 
 ## Requirements
 
@@ -60,12 +60,14 @@ flutter run -d chrome
 ## Build for production
 
 ```bash
-fvm flutter build web --release --base-href / --no-wasm-dry-run --no-tree-shake-icons
+fvm flutter build web --release --base-href /o-mid.com/ --no-wasm-dry-run --no-tree-shake-icons
 ```
+
+For a root-hosted deploy (custom domain), use `--base-href /` instead.
 
 Output directory: **`build/web`**
 
-Serve that folder with any static host. On the VPS this build is what runs at [https://flutter.o-mid.com](https://flutter.o-mid.com).
+This repo deploys that folder to GitHub Pages via `.github/workflows/deploy.yaml`. Live site: [https://o-mid.github.io/o-mid.com/](https://o-mid.github.io/o-mid.com/).
 
 ## Customise content
 
@@ -75,7 +77,7 @@ Personal details, experience, and projects live mainly under:
 - `assets/images/` (including project covers)
 - `resume/` for the CV PDF
 
-Update those, rebuild, and redeploy `build/web`.
+Update those, rebuild, and push to `main` (Actions publishes Pages).
 
 ## Useful make / flutter commands
 
@@ -84,13 +86,13 @@ Update those, rebuild, and redeploy `build/web`.
 | `fvm flutter pub get` | Install packages |
 | `make localization` | Codegen for easy_localization |
 | `fvm flutter run -d chrome` | Local web run |
-| `fvm flutter build web --release --base-href /` | Production static build |
+| `fvm flutter build web --release --base-href /o-mid.com/` | Production static build for GitHub Pages |
 | `fvm flutter analyze` | Static analysis |
 
 ## Related
 
 - Current site (Next.js): [o-mid/website](https://github.com/o-mid/website) → [https://o-mid.com](https://o-mid.com)
-- This Flutter archive live: [https://flutter.o-mid.com](https://flutter.o-mid.com)
+- This Flutter archive live: [https://o-mid.github.io/o-mid.com/](https://o-mid.github.io/o-mid.com/)
 
 ## Author
 
